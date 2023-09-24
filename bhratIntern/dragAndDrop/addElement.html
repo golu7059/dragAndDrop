@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- adding css file  -->
+    <link rel="stylesheet" href="./addElement.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <img src="https://pngtree.com/freepng/tri-color-national-flag-of-india-illustration-design_6620192.html" alt="" class="logo">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./addElement.html">Add Elements</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Log In</a></li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <h3>Blogging allows you to share information about your business and its services but it also allows you to share opinions and thoughts on certain topics. Blogging is a great way to create a personality for your company and makes your business more credible .  <br> Our blog takes the message from the weekend and lays out next right steps, so you can hear a message and do a message in practical ways.</h3>
+    </div>
+    <div class="tips">
+        <h2>Tips for better Blog</h2>
+        <div class="arrow">
+            <img src="./arrow.png" alt="arrow">
+        </div>
+        <p>
+            Step 1: Plan your blog post by choosing a topic, creating an outline, conducting research, and checking facts. <br>
+            Step 2: Craft a headline that is both informative and will capture readers’ attentions. <br>
+            Step 3: Write your post, either writing a draft in a single session or gradually word on parts of it. <br>
+            Step 4: Use images to enhance your post, improve its flow, add humor, and explain complex topics. <br>
+            Step 5: Edit your blog post. Make sure to avoid repetition, read your post aloud to check its flow, have someone             else read it and provide feedback, keep sentences and paragraphs short, don’t be a perfectionist, don’t be             afraid to cut out text or adapt your writing last minute.
+        </p>
+      
+
+    </div>
+    <div class="create">
+        <h1> let's create a blog</h1>
+    </div>
+    <div class="arrow">
+        <img src="./arrow.png" alt="arrow">
+    </div>
+    <div class="heading">
+        <form action="process.php" method="POST">
+            <label for="message" class="title">Heading/Title :</label>
+            <input type="text" class="headingInput">
+        </form>
+    </div>
+    
+    <div class="hero">
+        <p class="title">upload Image : </p>
+        
+        <label for="input-file" id="drop-area" >
+            <input type="file" id="input-file" hidden>
+            <div id="img-view">
+                <img src="./logo.png" alt="upload_logo">
+                <p>Drag and drop or click here <br> to upload image</p>
+                <span>
+                    Upload any images from desktop
+                </span>
+            </div>
+        </label>   
+    </div>
+    <div class="file">
+        <p class="title">Enter extra file : </p>
+        <label for="file">
+            <input type="file">
+        </label>
+    </div>
+
+    <div class="btn_div">
+        <button class="button">upload</button>
+    </div>
+    <!-- adding js file  -->
+    <script src="./addElement.js"></script>
+</body>
+</html>
